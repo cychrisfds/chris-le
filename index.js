@@ -52,19 +52,19 @@ const { limit } = require('./database/menu/limit')
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = 'デ❍多ቾ乙ቾ₦ bot'; 
-const instagram = 'http://www.instagram.com/'; 
+const BotName = 'akame bot'; 
+const instagram = 'http://www.instagram.com/cychris.exe'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:デ❍多ቾ乙ቾ₦\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=558688275801:+55 8688275801\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=558196207906:+55 8196207906\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '!'
 blocked = []
 limitawal = '999999999'
-cr = '*デ❍多ቾ乙ቾ₦*'
+cr = '*akame*'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -289,22 +289,22 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD TOBIZIN BOT*',
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD AKAME BOT*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
-					ownerG: '[❗] TOBIZIN? Este é um recurso especial para o TOBIZIN ❌',
-					ownerB: '[❗] TOBIZIN? Este é um recurso especial para o TOBIZIN ❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de TOBIZIN. Registre-se para fazer amizade com o bot TOBIZIN por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar TOBIZIN|17\n\n──「 TOBIZIN BOT 」──`,
+					ownerG: '[❗] TOBIZIN? Este é um recurso especial para o CYCHRIS ❌',
+					ownerB: '[❗] TOBIZIN? Este é um recurso especial para o CYCHRIS ❌',
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo da akame. Registre-se para fazer amizade com o bot AKAME por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar cychris|16\n\n──「 AKAME BOT 」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["558688275801@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"558688275801@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["558688275801@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["558688275801@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["558688275801@s.whatsapp.net","15136766782@s.whatsapp.net","558981427448@s.whatsapp.net","12792033668@s.whatsapp.net","5514991357606@s.whatsapp.net","558981246187@s.whatsapp.net","15135974358@s.whatsapp.net","19252046906@s.whatsapp.net","557182198257@s.whatsapp.net","556999732506@s.whatsapp.net"] 
+			const ownerNumber = ["558196207906@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"558196207906@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["558196207906@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["55819620706@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","12792033668@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -594,7 +594,7 @@ if (text.includes("placa"))
 	        if (messagesC.includes("://chat.whatsapp.com/")){
 		if (!isGroup) return
 		if (!isAntiLink) return
-		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx 🙂')
+		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx gay')
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
@@ -627,7 +627,7 @@ if (text.includes("placa"))
 		        if (messagesC.includes("https://")){
 		if (!isGroup) return
 		if (!isAntiLink) return
-		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx 🙂')
+		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx gay')
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
@@ -659,34 +659,38 @@ if (text.includes("placa"))
 	
 	if (messagesC.includes("fdp")){
 			client.updatePresence(from, Presence.composing)
-			reply("teu pai")
+			reply("ainnn")
 	}
 	
 		if (messagesC.includes("corno")){
 			client.updatePresence(from, Presence.composing)
-			reply("vsfd seu merda")
+			reply("seu pai")
 	}
 	
 		if (messagesC.includes("tmnc")){
 			client.updatePresence(from, Presence.composing)
-			reply("vai vc, tu ja me disse q é mo bom")
+			reply("AINN NO CU NAO")
 	}
 	
 		if (messagesC.includes("vsfd")){
 			client.updatePresence(from, Presence.composing)
-			reply("porque vc nao vai?")
+			reply("vamos juntos?")
 	}
 	
 		if (messagesC.includes("cadebot")){
 			client.updatePresence(from, Presence.composing)
-			reply("olha eu aqui carai")
+			reply("salmao🤐")
 	}
 	
 		if (messagesC.includes("bot")){
 			client.updatePresence(from, Presence.composing)
-			reply("fala")
+			reply("okaka🤐")
 	}
 	
+		if (messagesC.includes("oque?")){
+			client.updatePresence(from, Presence.composing)
+			reply("maionese de atum🤐🤙")
+	}
 			if (messagesC.includes("bah")){
 			client.updatePresence(from, Presence.composing)
 			tujuh = fs.readFileSync('./assets/bahc.mp3');
@@ -1833,7 +1837,7 @@ if (text.includes("placa"))
                          text: teks4,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('556192247994@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('558196297906@s.whatsapp.net', options, text, {quoted: mek})
                     reply('1 trava enviada')
                     break
            case 'playmp3':
@@ -2475,7 +2479,7 @@ break
 			    case 'lovemake':
               	    if (args.length < 1) return reply('Onde está o texto, irmão??')
                     teks = `${body.slice(8)}`
-                    if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
+                    if (teks.length > 10) return client.sendMessage(from, 'O texto é muito longo, no máximo 10 frases', text, {quoted: mek})
                     buff = await getBuffer(`https://api.vhtear.com/lovemessagetext?text=${teks}&apikey=ANTIGRATISNIHANJENKKK`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
@@ -2572,7 +2576,7 @@ break
 				case 'text3d':
               	    if (args.length < 1) return reply('Onde está o texto, irmão??')
                     teks = `${body.slice(8)}`
-                    if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
+                    if (teks.length > 10) return client.sendMessage(from, 'O texto é muito longo, no máximo 10 frases', text, {quoted: mek})
                     buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/text3d?text=${teks}`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
@@ -2607,7 +2611,7 @@ break
                    break
 					case 'totaluser':
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOS TOBIZIN BOT 👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOS AKAME BOT 👑* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
@@ -2754,7 +2758,7 @@ break
 					await limitAdd(sender) 
 					break 
 					
-// recursos anime, random @Causs domina vida
+// recursos anime, random @cychris.exe domina vida
 
                 case 'anjing':
                    if (!isGroup) return reply(ind.groupo())
@@ -3509,7 +3513,7 @@ break
 					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o proprietário ou digite *.Daftarvip* para adquirir o acesso Premium!' ,text, { quoted: mek })
 					me = client.user
 					uptime = process.uptime()
-					client.sendMessage(from,  `*──────────────────*\n*Nome do bot:* TOBIZIN BOT\n*─────────────────*\n『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑*』\n*──────────────────*\n*•Número:* *${sender.split("@s.whatsapp.net")[0]}*\n*•Status:* *ATIVO*\n*──────────────────*\n*Status Bot:* *${kyun(uptime)}*\n\n*VOCE É UM MEMBRO PREMIUM* 🐊🚩\n*──────────────────*` , text, { quoted: mek, })
+					client.sendMessage(from,  `*──────────────────*\n*Nome do bot:* AKAME BOT\n*─────────────────*\n『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑*』\n*──────────────────*\n*•Número:* *${sender.split("@s.whatsapp.net")[0]}*\n*•Status:* *ATIVO*\n*──────────────────*\n*Status Bot:* *${kyun(uptime)}*\n\n*VOCE É UM MEMBRO PREMIUM* 🐊🚩\n*──────────────────*` , text, { quoted: mek, })
 					break
 					case 'dellvip':
 					if (!isOwner) return reply(mess.only.ownerB)
@@ -3518,7 +3522,7 @@ break
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Número* : \n│+ *Status*: *DEATIVO*\n│ Te vejo para o próximo pedido🙂\n*╰──────「 *posição* 」────'
+						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Número* : \n│+ *Status*: *DESATIVO*\n│ Te vejo para o próximo pedido🙂\n*╰──────「 *posição* 」────'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
@@ -3531,7 +3535,7 @@ break
 					break
 					case 'ichiadmin':
 					tod = await getBuffer(`https://i.ibb.co/XDwBVDJ/1f2652c622fa.jpg`)
-					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT TOBIZIN ✨* 」\n*│+ wa.me/558688275801*╰──────*「 *TOBIZIN* 」*────*\n\n*_SE QUER SER ADMIN DO BOT TOBIZIN_*\n*_Tipo /iklan_*' })
+					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT AKAME ✨* 」\n*│+ wa.me/558196207906*╰──────*「 *AKAME* 」*────*\n\n*_SE QUER SER ADMIN DO BOT AKAME_*\n*_Tipo /iklan_*' })
 					break
 				case 'iklan':
 					client.sendMessage(from, iklan(prefix) , text, { quoted: mek })
@@ -3540,13 +3544,13 @@ break
                     if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/558688275801/*╰──────*「 * TOBIZIN* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO TOBIZIN BOT_*\n*_Ketik #daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/5581996207906/*╰──────*「 *AKAME* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO AKAME BOT_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
 					if (!isOwner) return reply(mess.only.ownerB)
-                 if (!ismod) return reply('kamu Belum Terdaftar sebagai User Modbot')
-                reply('kamu udah ke daftar sebagai user Modbot')
+                 if (!ismod) return reply('Você ainda não está registrado como um usuário Modbot')
+                reply('Você se registrou como um usuário Modbot')
                 break
                     case 'modbotlist':
 					teks = 'Esta é a lista de usuários premium :\n'
@@ -3769,7 +3773,7 @@ break
 				case 'dono':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4V_4fdvF8rluX0T3KKGOvY0TusMwx7nVWtw&usqp=CAU`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* ꧁☬デ❍多ቾ乙ቾ₦☬꧂\n*WPP:* wa.me/+558688582701\nCanal do dono:https://youtube.com/channel/UCIrqmPMH60G2afNmSrT_B0A\nInstagram:https://www.instagram.com/invites/contact/?i=hrwraeza9esq&utm_content=lu6hizd\nEspero que tenham gostado do bot 🐊🚩️'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* cychris.exe\n*WPP:* wa.me//558196207906\nInstagram:https://www.instagram.com/cychris.exe\nEspero que tenham gostado da bot 🐊🚩️'})
 					break
 				case 'setprefix':
 					if (args.length < 1) return
