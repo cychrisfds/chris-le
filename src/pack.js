@@ -1,7 +1,7 @@
 const pack = (prefix) => {
     return `*PACKS:*
     
-*꧁☬デ❍多ቾ乙ቾ₦☬꧂ DOMIMA 🐊🚩*
+*CYCHRIS.EXE LINDO ZAP*
 
 Belle delphine : https://photos.app.goo.gl/Jr4Qk1dFSJepPdRc7 
 
