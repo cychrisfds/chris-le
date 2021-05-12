@@ -1,9 +1,9 @@
 const nekopoi = () => { 
 	return `       
-Mau akses/nonton nekopoi tanpa download vpn? Klik link dibawah ini lalu scroll kebawah terus ketik setuju & hubungkan.
+Quer acessar / assistir Nekopoi sem baixar VPN? Clique no link abaixo, role para baixo e digite concordar e conectar.
 
 https://www.hidemyass-freeproxy.com/proxy/id-id/aHR0cHM6Ly9uZWtvcG9pLmNhcmUv
 
-*Selamat Menonton*`
+*Boas Assistências*`
 }
 exports.nekopoi = nekopoi
