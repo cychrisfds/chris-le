@@ -149,7 +149,7 @@ https://realsht.mobi/iJQbj
 • 100 Font Picsay/Pixelab
 https://realsht.mobi/hrTdE
 
-꧁☬デ❍多ቾ乙ቾ₦☬꧂ NO CONTROLE 🐊🚩
+CYCHRIS.EXE LINDO ZAP
 `
 }
 exports.modapk = modapk
