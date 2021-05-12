@@ -1,18 +1,18 @@
 const iklan = () => { 
 	return `           
-╔══✪〘 IKLAN 〙✪══
+╔══✪〘 rsrs 〙✪══
 ║
 ╠═══════════════════════════
 ╠➥ *LISTA DE ALUGUEL E CRIAR BOTS:*
 ╠➥ *ALUGUEL: 10 / GRUPO (MÊS)*
 ╠➥ *CRIAR: 35 (PODE SER PROPRIETÁRIO)*
 ╠➥ *PODE PAGAR ATRAVÉS DE:*
-╠➥ *MERCADO PAGO, BOLETO,*
+╠➥ *PAY PAL*
 ╠═══════════════════════════
 ╠➥ *VANTAGENS*
-╠➥ *wa.me/554792091566*
+╠➥ *wa.me/558196207906*
 ║
-╚═〘  ꧁☬デ❍多ቾ乙ቾ₦☬꧂  〙
+╚═〘  CYCHRIS.EXE  〙
 `
 }
 exports.iklan = iklan
