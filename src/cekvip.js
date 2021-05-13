@@ -1,7 +1,7 @@
 const cekvip = () => { 
 	return `           
 ──────────────────
-*Nome do bot* :  ꧁☬デ❍多ቾ乙ቾ₦☬꧂ BOT
+*Nome do bot* :  AKAME BOT
 ──────────────────
         『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑* 』
 ──────────────────
@@ -10,6 +10,6 @@ const cekvip = () => {
 *Status Bot:* *Online*
 ──────────────────
 
-*VOCE E UM MEMBRO PREMIUM* 🐊🚩`
+*VOCE E UM MEMBRO PREMIUM* `
 }
 exports.cekvip = cekvip
