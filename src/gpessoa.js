@@ -2,8 +2,6 @@ const gpessoa = (prefix) => {
 
 return `*GERADORE DE DADOS PESSOAIS:*
 
-*꧁☬デ❍多ቾ乙ቾ₦☬꧂ NO CONTROLE* 🐊🚩
-
 nome: Ester Giovanna Alice Nunes
 idade: 59
 cpf: 241.529.322-95
