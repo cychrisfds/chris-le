@@ -1,15 +1,21 @@
 const help = (prefix) => {
 	return `
 <══════════════════════>
-*꧁☬デ❍多ቾ乙ቾ₦☬꧂ BOT*
+*AKAME BOT™*
 <══════════════════════>
 
 ● ᏴϴͲ●ᎷᎬΝႮ● 
 
-*DONO* : ꧁☬デ❍多ቾ乙ቾ₦☬꧂
-*WPP: wa.me/+558688275801*
-*YT: youtube.com/channel/UCIrqmPMH60G2afNmSrT_B0A*
-*Instagram: www.instagram.com/invites/contact/?i=1b5qm4hksk3ul&utm_content=lu6hizd*
+   🍧⚡𝐀𝐊𝐀𝐌𝐄|𝐁𝐎𝐓✨
+      💮 𝗜𝗡𝗙𝗢𝗦💮
+ ▬▬▬▬▬▬▬【☪️】▬▬▬▬▬▬▬
+ 💮DONO: cychris.exe™
+ 🪀WHATSAPP: wa.me//5581996207906
+ ⚙️VERÇAO: sa poha foi feita nas pressa
+ ▬▬▬▬▬▬▬【☪️】▬▬▬▬▬▬▬
+ PREFIXO:[ ! ] [ . ]
+ ▬▬▬▬▬▬▬【☪️】▬▬▬▬▬▬▬
+amo vcs do shitolado KCL😏❤️
 
 ╭╮╮╱▔▔▔▔╲╭╭╮ 
 ╰╲╲▏▂╲╱▂▕╱╱╯
@@ -18,11 +24,13 @@ const help = (prefix) => {
 ╭╱╱ ▕╋╋╋╋▏╲╲╮
 ╰╯╯┈╲▂▂╱┈╰╰
 
+ola👋, @${num.split('@')[0]}
+
 ┌─────────❶.❷────────
 ║〘 INFORMAÇÕES 〙
 ║
-╠🐉 *꧁☬デ❍多ቾ乙ቾ₦☬꧂ BOT* 
-╠🐉 𝐃𝐎𝐍𝐎: ⃬⃗꧁☬デ❍多ቾ乙ቾ₦☬꧂ (base dark e caussx) 
+╠🐉 *AKAME BOT* 
+╠🐉 𝐃𝐎𝐍𝐎: cychris.exe
 ╠🐉 *wa.me/+558688275801*
 ╠🐉 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 ║
@@ -120,7 +128,7 @@ const help = (prefix) => {
 ║🦖 *${prefix}it 1/0
 ║
 ╠══🌀〘 SÓ PREMIUM 〙🌀══
-║
+║ AVISO: VOU LIBERAR TODOS DPS DE UM TEMPO
 ║🔱 *${prefix}dado*
 ║🔱 *${prefix}cekvip*
 ║🔱 *${prefix}premiumlist*
@@ -237,7 +245,12 @@ const help = (prefix) => {
 ║☄️ *${prefix}hpotter*
 ║☄️ *${prefix}woodblock*
 ║
-╚═〘 ꧁☬デ❍多ቾ乙ቾ₦☬꧂ BOT 〙`
+╚═〘 AKAME BOT 〙
+
+
+
+
+`
 }
 
 exports.help = help
